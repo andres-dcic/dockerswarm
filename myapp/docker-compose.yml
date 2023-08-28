@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  web:
+    image: andr35/myflask:v0.1.0
+    ports:
+      - "5000:5000"
